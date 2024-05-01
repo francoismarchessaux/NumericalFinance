@@ -1,7 +1,5 @@
 #include <iostream>
-#include <LinearCongruential.h>
 #include <EcuyerCombined.h>
-#include <Bernoulli.h>
 
 void TestRandom()
 {
@@ -9,6 +7,7 @@ void TestRandom()
     Unif->Generate();
     std::cout << Unif->GetCurrent() << std::endl;
 }
+
 
 int main()
 {

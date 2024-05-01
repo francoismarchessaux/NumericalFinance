@@ -42,6 +42,9 @@ class NormalCLT : public Normal
 		//Constructor
 		NormalCLT(double mu, double sigma);
 
+		// Destructor
+		~NormalCLT();
+
 		// Methods
 		double Generate();
 };
@@ -51,6 +54,9 @@ class NormalRejectionSampling : public Normal
 	public:
 		// Constructor
 		NormalRejectionSampling(double mu, double sigma);
+
+		// Destructor
+		~NormalRejectionSampling();
 
 		// Methods
 		double Generate();

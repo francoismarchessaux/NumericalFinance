@@ -4,6 +4,7 @@
 EcuyerCombined::EcuyerCombined() : PseudoGenerator(0), FirstLinear(40014, 0, 2147483563, 1), SecondLinear(40692, 0, 2147483399, 1) {}
 
 // Destructor
+EcuyerCombined::~EcuyerCombined(){}
 
 // Methods
 // Generate next random number

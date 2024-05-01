@@ -37,7 +37,8 @@ ExponentialRejectionSampling::~ExponentialRejectionSampling() {}
 double ExponentialRejectionSampling::Generate()
 {
 	double M = Lambda;
-	double X, Y;
+	double X = 0.;
+	double Y = 0.;
 
 	do
 	{

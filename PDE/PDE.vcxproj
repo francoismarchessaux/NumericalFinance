@@ -131,10 +131,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="PDEGrid2D.h" />
     <ClInclude Include="R1R1Function.h" />
     <ClInclude Include="R2R1Function.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="PDEGrid2D.cpp" />
     <ClCompile Include="R1R1Function.cpp" />
     <ClCompile Include="R2R1Function.cpp" />
   </ItemGroup>

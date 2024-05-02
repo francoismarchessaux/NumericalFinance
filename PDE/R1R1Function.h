@@ -66,7 +66,7 @@ class PutTerminalCondition : public VanillaTerminalCondition
 
 class PutTopBoundary : public R1R1Function
 {
-private:
+	private:
 		double SMax;
 		double Strike;
 

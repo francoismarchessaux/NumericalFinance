@@ -2,11 +2,13 @@
 #include <cmath>
 #include <algorithm>
 
+// Constructor
 R1R1Function::R1R1Function() {}
 
+// Destructor
 R1R1Function::~R1R1Function(){}
 
-/* VANILLA OPTIONS */
+/***** VANILLA OPTIONS *****/
 VanillaTerminalCondition::VanillaTerminalCondition(double strike) : R1R1Function(), Strike(strike) {}
 
 // Terminal Conditions

@@ -19,5 +19,5 @@ class RandomProcess
 
 		// Methods
 		virtual void simulate(double startTime, double endTime, size_t nbSteps) = 0;
-		SinglePath* getPath(int dimension = 0);
+		SinglePath* getPath(int dimension);
 };

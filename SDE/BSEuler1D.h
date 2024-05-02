@@ -11,6 +11,7 @@ class BSEuler1D : public BlackScholes1D
         BSEuler1D(RandomGenerator* gen, double spot, double rate, double vol);
         
         // Destructor
+        ~BSEuler1D();
 
         // Methods
         void simulate(double startTime, double endTime, size_t nbSteps);
